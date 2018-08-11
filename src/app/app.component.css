@@ -31,7 +31,7 @@
 
 .menu {
     width: 100.9%;
-    height: 130px;
+    height: 128px;
     background: #ffffff;
     padding-top: 72px;
 
@@ -40,11 +40,11 @@
 
 .navbar-nav > li{
     margin-left: 28px;
-    color: #8e9bae !important;
+    color: #8e9bae;
     font-weight: 400;
 }
 .navbar-nav2 > li > a{
-    color: #8e9bae !important;
+    color: #8e9bae ;
     font-weight: 450;
 }
 
@@ -127,9 +127,24 @@
 .active{
     font-weight: bold;
 }
+.active >a{
+    text-decoration: underline;
+
+    color: blue !important;
+
+}
 
 .logo-header-properties{
     height: 56px;
     margin-top: -50px;
     margin-left: 185px;
+}
+
+.active2{
+    font-weight: bold;
+}
+.active2 >a{
+
+    color: black !important;
+
 }
